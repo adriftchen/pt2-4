@@ -22,7 +22,7 @@
    </td>
    <td>
    <div style="display:inline-block;height:25px;background:#999;width:<?=100*$rate;?>%"></div>
-   <?=$option['count'];?>票(<?=round($rate)*100,2;?>%)
+   <?=$option['count'];?>票(<?=round($rate*100,2);?>%)
    </td>
  </tr>
  <?php
