@@ -28,7 +28,7 @@ include_once "base.php";
 				<a href="index.php" style="float:right">回首頁</a>
 				</div>
         <div id="title2">
-        	<a href="index.php"><img src="img/02B01.jpg" style="width:100%"></a>
+        	<a href="index.php" title="健康促進網"><img src="img/02B01.jpg" style="width:100%"></a>
         </div>
         <div id="mm">
         	<div class="hal" id="lef">
