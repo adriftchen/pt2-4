@@ -12,13 +12,13 @@
     </tr>
     <tr>
       <td>Step3:再次確認密碼</td>
-      <td><input type="text" name="pw2" id="pw2"></td>
+      <td><input type="password" name="pw2" id="pw2"></td>
     </tr>
     <tr>
       <td>Step4:信箱(忘記密碼時使用)</td>
       <td><input type="text" name="email" id="email"></td>
     </tr>
-    <td><input type="submit" value="註冊" onclick="reg()"><input type="reset" value="清除"></td>
+    <td><input type="submit" value="註冊" onclick="reg()"><input type="reset" value="清除" onclick="clearall()"></td>
   </table>
 </fieldset>
 
@@ -45,4 +45,11 @@
       })
   }
   }
+function clearall(){
+  $("#acc").val("")
+  $("#pw").val("")
+  $("#pw2").val("")
+  $("#email").val("")
+}
+
 </script>
