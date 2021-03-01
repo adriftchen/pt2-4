@@ -22,7 +22,7 @@
     <div class="titles"></div>
 </fieldset>
 <script>
-$("#nav").text(("#t1").text())
+$("#nav").text($("#t1").text())
 getTitle(1)
 
 function nav(type){
@@ -33,12 +33,12 @@ function nav(type){
 }
 function getTitle(type){
     $.get("api/get_title.php",{type},function(titles){
-        $("#titles").html(titles)
+        $(".titles").html(titles)
     })
 }
 function getNews(id){
     $.get("api/get_news.php",{id},function(news){
-        $("#titles").html(news)
+        $(".titles").html(news)
     })
 }
 </script>
